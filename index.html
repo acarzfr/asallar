@@ -280,7 +280,7 @@ Ve <input type="text" id="textbox" placeholder="???" style="width: 40px">’den 
         };
     </script>
 <p>&nbsp;</p>
-Şimdi <span class="math inline">100</span>’e kadar toplamda <input type="text" id="textbox2" placeholder="???" style="width: 40px"> asal sayı olduğunu söyleyebiliriz.
+<p>Şimdi <span class="math inline">100</span>’e kadar toplamda <input type="text" id="textbox2" placeholder="???" style="width: 40px"> asal sayı olduğunu söyleyebiliriz.</p>
 <script>
     document.getElementById("textbox2").addEventListener("input", function() {
     const enteredValue = this.value; // Girilen değeri al
@@ -326,9 +326,6 @@ Ve <input type="text" id="textbox" placeholder="???" style="width: 40px">’den 
         <input type="number" id="goldbachInput" class="goldbach-input" placeholder="Bir sayı girin (Örnek: 24 veya 11)">
         <button onclick="testGoldbachSanisi()" class="goldbach-button">Goldbach Sanısını Test Et</button>
         <div id="goldbachResult" class="goldbach-result"></div>
-
-        <!-- Yenile Butonu -->
-        <button onclick="refreshGoldbachPage()" class="goldbach-button">Yenile</button>
     </div>
 
     <script>
@@ -401,10 +398,6 @@ Ve <input type="text" id="textbox" placeholder="???" style="width: 40px">’den 
             return num > 1;
         }
 
-        // Yenile butonu işlevi
-        function refreshGoldbachPage() {
-            location.reload(); // Sayfayı yeniden yükle
-        }
     </script>
 
 </main>
