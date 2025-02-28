@@ -1,0 +1,210 @@
+/* styles.css */
+
+/* Seçim kutularının stilleri */
+
+#choices {
+    padding: 5px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+#choices.correct {
+    border-color: green;
+    background-color: #e6ffe6; /* Açık yeşil arka plan */
+}
+
+#choices.incorrect {
+    border-color: red;
+    background-color: #ffe6e6; /* Açık kırmızı arka plan */
+}
+
+/* text box stilleri */
+
+#textbox {
+    padding: 5px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    
+}
+
+#textbox.correct {
+    border-color: green;
+    background-color: #e6ffe6; /* Açık yeşil arka plan */
+}
+
+#textbox.incorrect {
+    border-color: red;
+    background-color: #ffe6e6; /* Açık kırmızı arka plan */
+}
+
+#textbox2 {
+    padding: 5px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    
+}
+
+#textbox2.correct {
+    border-color: green;
+    background-color: #e6ffe6; /* Açık yeşil arka plan */
+}
+
+#textbox2.incorrect {
+    border-color: red;
+    background-color: #ffe6e6; /* Açık kırmızı arka plan */
+}
+
+
+/* Oyun stilleri */
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50%;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4289d4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.instructions {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 16px;
+    color: #34495e;
+}
+
+.number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.number.prime {
+    background-color: #2ecc71;
+}
+.number.eliminated {
+    background-color: #e74c3c;
+    text-decoration: line-through;
+}
+.slider-container {
+    margin: 20px 0;
+    text-align: center;
+}
+.slider {
+    width: 80%;
+    max-width: 400px;
+    color: aqua;
+}
+
+/* katex */
+.katex { font-size: 1.2em !important; } 
+
+/* Örnek stilleri */
+
+.theorem.theorem{
+    padding: 1em 1em 0.25em 1em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: #ffe6e6;
+    border-start-end-radius: .25rem;
+    border-start-start-radius: .25rem;
+    border-end-start-radius: .25rem;
+    border-end-end-radius: .25rem;
+
+  }
+
+.theorem-title{
+    color: #0056b3;
+}
+
+.theorem.example{
+    
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: #e1f4fc;
+    border-start-end-radius: .25rem;
+    border-start-start-radius: .25rem;
+    border-end-start-radius: .25rem;
+    border-end-end-radius: .25rem;
+  }
+
+.theorem.definition{
+    padding: 1em 1em 0.25em 1em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: #e2f3f2;
+    border-start-end-radius: .25rem;
+    border-start-start-radius: .25rem;
+    border-end-start-radius: .25rem;
+    border-end-end-radius: .25rem;
+  }
+
+  .theorem.proposition{
+    padding: 1em 1em 0.25em 1em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: #ffe6e6;
+    border-start-end-radius: .25rem;
+    border-start-start-radius: .25rem;
+    border-end-start-radius: .25rem;
+    border-end-end-radius: .25rem;
+
+  }
+
+
+
+  /* Diğer */
+
+.right{
+    text-align: right;
+  }
+
+.center{
+    text-align: center;
+  }
